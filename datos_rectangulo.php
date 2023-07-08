@@ -11,7 +11,3 @@ $r= new Rectangulo($_GET['base'], $_GET['altura']);
 $datos = $r ->mostrar_datos();
 $area = $r ->calcular_area();
 
-echo " $datos. ";
-echo "El area del rectangulo es $area";
-
-?>

@@ -6,7 +6,7 @@
 class Rectangulo{
     //atributos-propiedades del rectangulo
     //tienen que tener una visivilidad :public o private
-    public $base; 
+    public $base: 
     public $altura; //está referenciado como $this->altura
 
     //todos los objetos iempre tienen un método, por eso le ponemos una función
@@ -14,12 +14,11 @@ class Rectangulo{
     public function __construct($b, $a){
         //this: diferencia las variables de las clases con las de funciones
         $this ->base= $b;
-        $this ->altura= $a;      
+        $this ->base= $a;      
     }
     public function mostrar_datos(){
         return "Es un rectángulo de base $this->base y altura $this->altura";
-        
-    } 
+    } echo "Es un rectángulo de base $base y altura $altura";
     //hasta acá ya tengo el tipo de dato Rectángulo y puedo guradar en una variable el objeto rectangulo
      
 
@@ -27,7 +26,6 @@ class Rectangulo{
     public function calcular_area(){
         $area = $this -> base * $this-> altura;
         return $area;
-    }
+    }echo "El area del rectangulo es $area";
 
 }
-?>
